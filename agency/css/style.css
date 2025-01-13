@@ -119,7 +119,7 @@ blockquote > cite {font-weight: 400;font-size: 14px;display: block;}
 .btn.btn-transparent-black {background:transparent; border-color: #18212e; color: #18212e}
 .btn.btn-black {background: #18212e; border-color: #18212e; color: #ffffff}
 .btn.btn-blue {background: #1e8fb2; border-color: #1e8fb2; color: #ffffff}
-.btn.btn-pink {background: #f023b6; border-color: #f023b6; color: #ffffff}
+.btn.btn-pink {background: #d91d52; border-color: #d91d52; color: #ffffff}
 .btn.btn-purple {background: #7004bc; border-color: #7004bc; color: #ffffff}
 
 /*Button Hover bg*/
@@ -127,8 +127,8 @@ blockquote > cite {font-weight: 400;font-size: 14px;display: block;}
 .btn.btn-hvr-white .btn-hvr-effect {background: #fff;border-color: #fff}
 .btn.btn-hvr-blue:hover,.btn.btn-hvr-blue:focus{color: #fff;border-color: #1e8fb2;background: transparent !important;}
 .btn.btn-hvr-blue .btn-hvr-effect {background: #1e8fb2;border-color: #1e8fb2}
-.btn.btn-hvr-pink:hover,.btn.btn-hvr-pink:focus{color: #fff;border-color: #f023b6;background: transparent !important;}
-.btn.btn-hvr-pink .btn-hvr-effect {background: #f023b6;border-color: #f023b6}
+.btn.btn-hvr-pink:hover,.btn.btn-hvr-pink:focus{color: #fff;border-color: #d91d52;background: transparent !important;}
+.btn.btn-hvr-pink .btn-hvr-effect {background: #d91d52;border-color: #d91d52}
 
 /* overlay */
 .bg-overlay{position: absolute;top: 0;left: 0;width: 100%;height: 100%;z-index: 1;}
@@ -1100,7 +1100,7 @@ span.anchor-circle{
     width: 45px;
     height: 45px;
     border-radius: 50px;
-    background: #F023B6;
+    background: #d91d52;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     -ms-transition: all .2s ease-in-out;
@@ -1942,7 +1942,7 @@ audio, video, canvas {
 
 .page-breadcrumb li a .icon{
     margin-right:4px;
-    color:#F023B6;
+    color:#d91d52;
 }
 
 .page-breadcrumb li a:hover{
@@ -1975,11 +1975,11 @@ audio, video, canvas {
 
 .post-details .post-categories a{
     position: relative;
-    color: #F023B6;
+    color: #d91d52;
     padding: 4px 15px;
     margin-right: 3px;
     display: inline-block;
-    border: 1px solid #F023B6;
+    border: 1px solid #d91d52;
     border-radius: 50px;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -1990,7 +1990,7 @@ audio, video, canvas {
 
 .post-details .post-categories a:hover{
     color: #fff;
-    background-color: #F023B6;
+    background-color: #d91d52;
 }
 
 .post-details{
