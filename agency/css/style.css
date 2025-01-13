@@ -121,6 +121,7 @@ blockquote > cite {font-weight: 400;font-size: 14px;display: block;}
 .btn.btn-blue {background: #1e8fb2; border-color: #1e8fb2; color: #ffffff}
 .btn.btn-pink {background: #d91d52; border-color: #d91d52; color: #ffffff}
 .btn.btn-purple {background: #7004bc; border-color: #7004bc; color: #ffffff}
+.btn.btn-green {background: #25D366; border-color: #25D366; color: #ffffff}
 
 /*Button Hover bg*/
 .btn.btn-hvr-white:hover,.btn.btn-hvr-white:focus{color: #18212e;border-color:#fff;background: transparent !important;}
@@ -206,6 +207,7 @@ blockquote > cite {font-weight: 400;font-size: 14px;display: block;}
 .social-icon-bg a i.fa-xing {background-color: #026466;}
 .social-icon-bg a i.fa-yelp {background-color: #af0606;}
 .social-icon-bg a i.fa-vine {background-color: #00b489;}
+.social-icon-bg a i.fa-whatsapp {background-color: #25D366;}
 
 /* ===================================
    Social Icon Bg Hover
@@ -230,6 +232,7 @@ blockquote > cite {font-weight: 400;font-size: 14px;display: block;}
 .social-icon-bg-hvr a:hover i.fa-xing {background-color: #026466;}
 .social-icon-bg-hvr a:hover i.fa-yelp {background-color: #af0606;}
 .social-icon-bg-hvr a:hover i.fa-vine {background-color: #00b489;}
+.social-icon-bg-hvr a:hover i.fa-whatsapp {background-color: #075E54;}
 
 /* ===================================
    Social Icon Color
@@ -254,6 +257,7 @@ blockquote > cite {font-weight: 400;font-size: 14px;display: block;}
 .social-icon-clr a i.fa-xing {color: #026466;}
 .social-icon-clr a i.fa-yelp {color: #af0606;}
 .social-icon-clr a i.fa-vine {color: #00b489;}
+.social-icon-clr a i.fa-whatsapp {color: #00b489;}
 
 /* ===================================
    Social Icon Hover
@@ -278,6 +282,7 @@ blockquote > cite {font-weight: 400;font-size: 14px;display: block;}
 .social-icon-clr-hvr a i:hover.fa-xing {color: #026466;}
 .social-icon-clr-hvr a i:hover.fa-yelp {color: #af0606;}
 .social-icon-clr-hvr a i:hover.fa-vine {color: #00b489;}
+.social-icon-clr-hvr a i:hover.fa-whatsapp {color: #075E54;}
 
 /* ========== End Basic Style ========== */
 
