@@ -1443,10 +1443,10 @@ Azul escuro = #00365B*/
 }
 
 .cube-portfolio1 .cbp-l-grid-mosaic-flat .cbp-caption-activeWrap {
-    background: #237afe;
-    background: -moz-linear-gradient(left, #237afe 2%, #1e8fb2 82%);
-    background: -webkit-linear-gradient(left, #237afe 2%, #1e8fb2 82%);
-    background: linear-gradient(to right, #237afe 2%, #1e8fb2 82%);
+    background: #00365B;
+    background: -moz-linear-gradient(left, #00365B 2%, #1E8FB2 82%);
+    background: -webkit-linear-gradient(left, #00365B 2%, #1E8FB2 82%);
+    background: linear-gradient(to right, #00365B 2%, #1E8FB2 82%);
     -webkit-transition: opacity .3s ease-in-out;
     -moz-transition: opacity .3s ease-in-out;
     -ms-transition: opacity .3s ease-in-out;
@@ -2879,7 +2879,7 @@ input.inputerror, textarea.inputerror, select.inputerror {
     position: fixed;
     top: 0;
     bottom: 0;
-    background: #7004BC;
+    background: #D91D52;
     z-index: 800;
     text-align: center;
     overflow: hidden;
