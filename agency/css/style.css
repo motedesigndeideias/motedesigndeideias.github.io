@@ -95,6 +95,7 @@ blockquote > cite {font-weight: 400;font-size: 14px;display: block;}
 /* button */
 .btn {-webkit-appearance: initial; overflow: hidden;position: sticky; z-index: 2; display:inline-block; font-size: 17px; border:2px solid transparent; letter-spacing: .5px; line-height: inherit; border-radius: 0; text-transform:capitalize; width: auto;font-family: 'Montserrat', sans-serif; font-weight: 500; -webkit-transition: all .5s ease;-o-transition: all .5s ease !important;transition: all .5s ease !important;}
 /* button size */
+.btn-mobile { display:none!important; }
 .btn.btn-small {font-size:12px; padding: 4px 1.8em;}
 .btn.btn-medium {font-size:12px; padding: 6px 1.8em;}
 .btn.btn-large {font-size:14px; padding: 9px 34px; line-height: 1.8em;}
@@ -3199,6 +3200,12 @@ input.inputerror, textarea.inputerror, select.inputerror {
     body{
         text-align: center;
     }
+    .btn-mobile {
+        display: flex!important;
+    }
+    .btn.btn-small{
+        padding: 4px 12px;
+    }
 
     .fullnav-toggler,.header-appear .fullnav-toggler{
         position: relative;
@@ -3271,6 +3278,9 @@ input.inputerror, textarea.inputerror, select.inputerror {
 
 
 @media screen and (max-width:767px){
+    .tp-caption-mobile {
+        top: 20px;
+    }
 
     section, .section-padding{
         padding: 4.5rem 0;
@@ -3383,6 +3393,9 @@ input.inputerror, textarea.inputerror, select.inputerror {
 @media screen and (max-width:400px){
     .post-navigation .post-nav-content h6{
         display: none;
+    }
+    header a.logo img {
+        max-width: 120px;
     }
 }
 @media screen and (max-width:575px) {

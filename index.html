@@ -49,6 +49,19 @@
                 <!--Logo Default-->
                 <img alt="logo" class="logo-dark default" src="agency/img/logo-white.png">
             </a>
+             <a style="display: flex; column-gap: 4px;" class="btn btn-mobile btn-small btn-rounded btn-green btn-hvr-white ml-3" data-animation-duration="500" data-fancybox data-src="#animatedModal"
+                   href="javascript:void(0);"><i
+                            aria-hidden="true" class="fab fa-whatsapp" style="font-size: 20px;line-height: 1.5;"></i> <span>85 98888-9999 </span>
+                    
+                    <div class="btn-hvr-setting">
+                        <ul class="btn-hvr-setting-inner">
+                            <li class="btn-hvr-effect"></li>
+                            <li class="btn-hvr-effect"></li>
+                            <li class="btn-hvr-effect"></li>
+                            <li class="btn-hvr-effect"></li>
+                        </ul>
+                    </div>
+                </a>
 
 
             <!--Nav Links-->
@@ -59,7 +72,7 @@
                     <a class="nav-link link scroll" href="#services">Serviços</a>
                     <a class="nav-link link scroll" href="#portfolio">Projetos</a>
                     <a class="nav-link link scroll" href="#clients">Clientes</a>
-                    <a class="nav-link link scroll" href="#blog">Blog</a>
+                    <!-- <a class="nav-link link scroll" href="#blog">Blog</a> -->
                     <!-- <a class="nav-link link scroll" href="#contact">Contato</a> -->
                     <span class="menu-line"><i aria-hidden="true" class="fa fa-angle-down"></i></span>
                 </div>
@@ -122,22 +135,26 @@
                             <span class="anchor-circle"></span>
                             <span class="anchor-text">Quem Somos</span>
                         </a></li>
-                        <li><a class="link scroll" href="#portfolio">
+                        <li><a class="link scroll" href="#services">
                             <span class="anchor-circle"></span>
                             <span class="anchor-text">Serviços</span>
+                        </a></li>
+                        <li><a class="link scroll" href="#portfolio">
+                            <span class="anchor-circle"></span>
+                            <span class="anchor-text">Projetos</span>
                         </a></li>
                         <li><a class="link scroll" href="#clients">
                             <span class="anchor-circle"></span>
                             <span class="anchor-text">Clientes</span>
                         </a></li>
-                        <li><a class="link scroll" href="#blog">
+                        <!-- <li><a class="link scroll" href="#blog">
                             <span class="anchor-circle"></span>
                             <span class="anchor-text">Blog</span>
-                        </a></li>
-                        <li><a class="link scroll" href="#contact">
+                        </a></li> -->
+                        <!-- <li><a class="link scroll" href="#contact">
                             <span class="anchor-circle"></span>
                             <span class="anchor-text">Contato</span>
-                        </a></li>
+                        </a></li> -->
                     </ul>
                     <span class="full-menu-dot" style="transform: scale(0);"></span>
                 </nav>
@@ -157,77 +174,6 @@
             <span class="sub-title">We are megaone company</span>
             <h2 class="title mt-2">Lets start your <span class="alt-color js-rotating">project, website</span></h2>
         </div>
-        <!--Contact Form-->
-        <form class="contact-form" id="modal-contact-form-data">
-            <div class="row">
-                <!--Result-->
-                <div class="col-12" id="quote_result"></div>
-
-                <!--Left Column-->
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <input class="form-control" id="quote_name" name="quoteName" placeholder="Name" required=""
-                               type="text">
-                    </div>
-                    <div class="form-group">
-                        <input class="form-control" id="quote_contact" name="userPhone" placeholder="Contact #" required=""
-                               type="text">
-                    </div>
-                    <div class="form-group">
-                        <input class="form-control" id="quote_type" name="projectType" placeholder="Project type" required=""
-                               type="text">
-                    </div>
-                </div>
-
-                <!--Right Column-->
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <input class="form-control" id="quote_email" name="userEmail" placeholder="Email" required=""
-                               type="email">
-                    </div>
-                    <div class="form-group">
-                        <input class="form-control" id="quote_address" name="userAddress" placeholder="City / Country"
-                               required="" type="text">
-                    </div>
-                    <div class="form-group">
-                        <input class="form-control" id="quote_budget" name="quoteBudget" placeholder="Budget" required=""
-                               type="text">
-                    </div>
-                </div>
-
-                <!--Full Column-->
-                <div class="col-md-12">
-                    <div class="form-group">
-                        <textarea class="form-control" id="quote_message"
-                                  name="userMessage" placeholder="Please explain your project in detail."></textarea>
-                    </div>
-                </div>
-
-                <!--Button-->
-                <div class="col-md-12">
-
-                    <div class="form-check">
-                        <label class="checkbox-lable">Contact by phone ins preffered
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
-                        </label>
-                    </div>
-
-                    <a class="btn btn-large btn-rounded btn-blue btn-hvr-pink modal_contact_btn" href="javascript:void(0);"
-                       id="quote_submit_btn"><i class="fa fa-spinner fa-spin mr-2 d-none" aria-hidden="true"></i><b>Send Message</b>
-                        <div class="btn-hvr-setting">
-                            <ul class="btn-hvr-setting-inner">
-                                <li class="btn-hvr-effect"></li>
-                                <li class="btn-hvr-effect"></li>
-                                <li class="btn-hvr-effect"></li>
-                                <li class="btn-hvr-effect"></li>
-                            </ul>
-                        </div>
-                    </a>
-                </div>
-
-            </div>
-        </form>
     </div>
 
 </header>
@@ -463,7 +409,7 @@
                     </div>
 
                     <!-- LAYER NR. 11 -->
-                    <div class="tp-caption   tp-resizeme"
+                    <div class="tp-caption-mobile tp-caption   tp-resizeme"
                          data-fontsize="['20','20','18','17']"
                          data-frames='[{"delay":2360,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-height="none"
                          data-hoffset="['325','210','0','0']" data-paddingbottom="[0,0,0,0]"
@@ -506,16 +452,7 @@
                          id="slide-43-layer-15"
 
                          style="z-index: 16; white-space: nowrap;">
-                        <a class="btn btn-slider btn-rounded btn-blue btn-hvr-white" href="javascript:void(0);">Entre em contato
-                            <div class="btn-hvr-setting">
-                                <ul class="btn-hvr-setting-inner">
-                                    <li class="btn-hvr-effect"></li>
-                                    <li class="btn-hvr-effect"></li>
-                                    <li class="btn-hvr-effect"></li>
-                                    <li class="btn-hvr-effect"></li>
-                                </ul>
-                            </div>
-                        </a>
+                        
                     </div>
 
                     <!-- LAYER NR. 13 -->
