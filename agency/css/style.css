@@ -114,6 +114,24 @@ blockquote > cite {font-weight: 400;font-size: 14px;display: block;}
 .btn-hvr-setting:hover .btn-hvr-effect, .btn:hover .btn-hvr-effect, .btn:active .btn-hvr-effect, .btn:focus .btn-hvr-effect {-webkit-transform: translateZ(0) scale(1.7); transform: translateZ(0) scale(1.7) !important;}
 .btn-hvr-grey .btn-hvr-effect {background: #00bcd4;}
 
+.btn-reset {
+        /*Reset's every elements apperance*/
+        background: none repeat scroll 0 0 transparent;
+        border: medium none;
+        border-spacing: 0;
+        color: #ffffff;
+        font-family: inherit;
+        font-size: 12px;
+        font-weight: normal;
+        line-height: inherit;
+        list-style: none outside none;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        text-decoration: none;
+        text-indent: 0;
+}
+
 /* button background */
 .btn.btn-white {background:#ffffff; border-color: #ffffff; color: #585858}
 .btn.btn-transparent-white {background:transparent; border-color: #ffffff; color:  #ffffff}
