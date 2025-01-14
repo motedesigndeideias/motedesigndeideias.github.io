@@ -17926,9 +17926,9 @@ section.ui-block-25 {
     justify-content: center;
     align-items: center;
     transform: translate(-50%,-50%);
-    -webkit-animation: itg_pulse_blue 1s infinite;
-    -o-animation: itg_pulse_blue 1s infinite;
-    animation: itg_pulse_blue 1s infinite;
+    -webkit-animation: itg_pulse_ciano 1s infinite;
+    -o-animation: itg_pulse_ciano 1s infinite;
+    animation: itg_pulse_ciano 1s infinite;
     -webkit-box-shadow:0 0 0 0 rgb(100, 121, 191);
 }
 
@@ -17989,7 +17989,7 @@ section.ui-block-25 {
     color: #000000;
 }
 
-@keyframes itg_pulse_blue {
+@keyframes itg_pulse_ciano {
     0% {
         -webkit-box-shadow: 0 0 0 5px rgba(100, 121, 191, 0.9);
         box-shadow: 0 0 0 5px rgba(100, 121, 191, 0.9);
@@ -21199,7 +21199,7 @@ section.ui-block-25 {
 }
 
 .ui-block-12.team-sec .box-team .overlay {
-    background-color: rgba(0, 188, 212, 0.7);
+    background-color: rgba(30, 143, 178, 0.7);
     border-radius: 50%;
     -webkit-transition: all .5s ease-in .1s;
     -o-transition: all .5s ease-in .1s;
@@ -21207,7 +21207,7 @@ section.ui-block-25 {
 }
 
 .ui-block-12.team-sec .overlay {
-    background-color: rgba(0, 188, 212, 0.75);
+    background-color: rgba(30, 143, 178, 0.75);
     padding-bottom: 10px;
     padding-left: 15px;
     padding-right: 15px;
@@ -32268,7 +32268,7 @@ section.main-page {position: relative; padding: 7.5rem 0; overflow: hidden;}
 
 .ui-block-15.button .btn.btn-rounded {border-radius: 50px;}
 
-.ui-block-15.button .btn.btn-purple {background: #a07bf7; border-color: #a07bf7; color: #ffffff}
+.ui-block-15.button .btn.btn-    {background: #a07bf7; border-color: #a07bf7; color: #ffffff}
 
 .ui-block-15.button .btn.btn-purple:hover, .btn.btn-purple:focus {background: transparent !important; border-color: #a07bf7; color: #a07bf7 !important}
 
