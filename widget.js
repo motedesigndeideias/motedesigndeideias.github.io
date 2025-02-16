@@ -66,7 +66,6 @@
         const data = await fetchData();
         if (data) {
             renderWidget(data);
-            trackEvent('widget-loaded'); // Track widget load event
         }
     }
 
