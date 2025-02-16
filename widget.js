@@ -2,7 +2,7 @@
 (function() {
     // Default configuration
     const defaultConfig = {
-        apiUrl: 'http://localhost:3001/mock-data', // Use mock API for local testing
+        apiUrl: 'https://motedesigndeideias.com.br/mock-data.json', // Use mock API for local testing
         position: 'bottom-left', // Default position
         styles: {
             backgroundColor: '#ffffff',
