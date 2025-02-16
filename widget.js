@@ -61,17 +61,6 @@
         document.body.appendChild(widget);
     }
 
-    // Track widget events (optional)
-    function trackEvent(eventName) {
-        fetch('https://your-bubble-app.com/version-test/api/1.1/wd/track-event', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({ event: eventName, url: window.location.href })
-        }).catch(error => console.error('Error tracking event:', error));
-    }
-
     // Initialize the widget
     async function init() {
         const data = await fetchData();
